@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='simplestore'>
         <Navbar/>
           <Routes>
             <Route path="/products/:id" element={<Products/>}></Route>
