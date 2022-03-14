@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-simple-store/static/css/main.09137fcf.css",
+    "main.js": "/react-simple-store/static/js/main.e2b1003d.js",
+    "static/js/787.9e5c188c.chunk.js": "/react-simple-store/static/js/787.9e5c188c.chunk.js",
+    "index.html": "/react-simple-store/index.html",
+    "main.09137fcf.css.map": "/react-simple-store/static/css/main.09137fcf.css.map",
+    "main.e2b1003d.js.map": "/react-simple-store/static/js/main.e2b1003d.js.map",
+    "787.9e5c188c.chunk.js.map": "/react-simple-store/static/js/787.9e5c188c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09137fcf.css",
+    "static/js/main.e2b1003d.js"
+  ]
+}
