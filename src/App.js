@@ -10,11 +10,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <Router basename='simplestore'>
+      <Router>
         <Navbar/>
           <Routes>
             <Route path="/products/:id" element={<Products/>}></Route>
-            <Route path="/" element={<ProductsList/>}></Route>
+            <Route path="/simplestore" element={<ProductsList/>}></Route>
             <Route path="/cart" element={<Cart/>}></Route>
             <Route path="/about" element={<About/>}></Route>
             <Route path="*" element={<NotFound/>}></Route>
