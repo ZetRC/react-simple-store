@@ -16,8 +16,8 @@ function Cart() {
           <div className='text-lg  opacity-80 w-2/12'>Precio</div>
         </div>
         {cartContent.map(cartItem=>(
-          <div className="py-8 flex items-center justify-between" key={cartItem.id}>
-            <div className='flex items-center w-6/12'>
+          <div className="py-8 flex items-center justify-between  md:flex-row flex-col" key={cartItem.id}>
+            <div className='flex items-center w-full md:w-6/12'>
               <img className='w-[5rem] mr-5' src={cartItem.image}></img>
               <div className=''>
                 <div className="font-bold text-xl">{cartItem.title}</div>

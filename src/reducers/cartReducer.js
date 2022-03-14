@@ -5,6 +5,7 @@ const cartReducer = (state=[], action) =>{
             if (tempcart < 1) {
               return [...state, action.payload];
             } else {
+              alert("el producto ya fué añadido al carrito")
               return state;
             };
         case "REMOVE_PRODUCT":
