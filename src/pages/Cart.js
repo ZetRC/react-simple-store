@@ -24,14 +24,16 @@ function Cart() {
                 <div className="opacity-70">{cartItem.category}</div>
               </div>
             </div>
-            <div className="w-2/12">
-              <input className='border border-gray w-[5rem] p-2 rounded' type="number" value="1" min="1"/>
-            </div>
-            <div className="w-2/12">
-              <div className='text-xl font-bold'>${cartItem.price}</div>
-            </div>
-            <div className="w-2/12">
-              <div className="btn btn-outline w-fit" onClick={()=>dispatch(removeProduct(cartItem))}>Remover</div>
+            <div class="flex items-center w-full md:w-6/12 py-4 md:py-0">
+              <div className="w-6/12">
+                <input className='border border-gray w-[5rem] p-2 rounded' type="number" value="1" min="1"/>
+              </div>
+              <div className="w-6/12">
+                <div className='text-xl font-bold'>${cartItem.price}</div>
+              </div>
+              <div className="w-6/12">
+                <div className="btn btn-outline w-fit" onClick={()=>dispatch(removeProduct(cartItem))}>Remover</div>
+              </div>
             </div>
           </div>
         ))}

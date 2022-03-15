@@ -25,7 +25,7 @@ code {
 }
 
 .custom-container{
-  @apply 	mx-auto max-w-screen-xl py-8
+  @apply 	mx-auto max-w-screen-xl py-8 px-4 xl:px-0
 }
 
 .btn{
